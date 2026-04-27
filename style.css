@@ -433,6 +433,16 @@ svg {
   overflow: hidden;
 }
 
+.premium-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  object-position: right bottom;
+}
+
 .glow-card {
   position: absolute;
   border-radius: 18px;
@@ -509,6 +519,14 @@ svg {
   background: rgba(255, 255, 255, 0.88);
   box-shadow: var(--shadow);
   border: 1px solid rgba(255, 255, 255, 0.78);
+}
+
+.resource-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  object-fit: cover;
+  box-shadow: 0 12px 17px rgba(10, 18, 46, 0.2);
 }
 
 .swiftui-icon {
